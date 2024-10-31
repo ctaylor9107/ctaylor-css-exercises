@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -44,6 +47,12 @@ a{
 .header{
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
 }
 
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 20px;
+}
