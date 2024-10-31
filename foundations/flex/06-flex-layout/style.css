@@ -34,5 +34,10 @@ a{
   text-decoration: none;
 }
 
+.left-links, .right-links{
+  display: flex;
+  gap: 15px;
+}
+
 
 
