@@ -15,6 +15,10 @@ body {
   padding-left: 16px;
 }
 
+.content{
+  display: flex;
+}
+
 .footer {
   height: 72px;
   background: #eee;
@@ -25,6 +29,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex: 1 0 300px
 }
 
 .card {
